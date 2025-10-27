@@ -10,7 +10,7 @@ int main () {
 	printf("moi ban nhap nam :");
 	scanf("%d",&c);
 	int hople = 1;
-	if (a<1  && a>32 || b>13 && b<1 ) {
+	if (a<1  || a>32 || b>13 || b<1 ) {
 		hople = 0;
 	}
 	else if (b == 1 || b == 3 || b ==5 || b ==7 || b == 8 || b == 10 || b ==12) {
@@ -39,3 +39,4 @@ int main () {
 	
 	return 0;
 }
+
