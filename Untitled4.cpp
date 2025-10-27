@@ -3,7 +3,7 @@ int main () {
 	int so;
 	printf("nhap so di");
 	scanf("%d",&so);
-	switch (12>= so > 0){
+	switch (12>= so %% so> 0){
 	case 1 :
 		printf ("thang 1 co 31 ngay");
 		break;
@@ -39,6 +39,7 @@ int main () {
 		break;
 	case 12 :
 		printf("thang 12 co 31 ngay");
+		break;
 	default :
 		printf("kgong co thang nay");
 		
@@ -47,4 +48,5 @@ int main () {
 	
 return 0;	
 }
+
 
