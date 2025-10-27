@@ -1,8 +1,12 @@
 #include<stdio.h>
 int main () {
-	int so;
-	printf("nhap so dien");
-	scanf("%d",&so);
+	int so2;
+	int so1;
+	printf("nhap so dien dau thang :");
+	scanf("%d",&so2);
+	printf("nhap so dien cuoi thang :");
+	scanf("%d",&so1);
+	int so = so2 - so1;
 	if(0<so<50) {
 		int tien = so * 10000;
 		printf ("tien dien la %d",tien);
